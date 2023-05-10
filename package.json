@@ -4,14 +4,34 @@
 	"type": "module",
 	"description": "PIXI.js library to add glitter particles with bokeh and special effects to your DOM elements",
 	"scripts": {
+		"version": "git add -A && git add CHANGELOG.md package.json && git add -A src docs",
 		"build": "rollup -c",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"keywords": [
+		"wegbl",
+		"pixi",
+		"pixijs",
+		"awesome-webgl",
+		"particles",
+		"sparkles",
+		"html5-canvas",
+		"ui"
+	],
 	"author": "Eli Menendez <elisamuelpantoja@gmail.com>",
-	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/elisamuelps/fancy-webgl-sparkles.git"
+	},
+	"bugs": {
+		"url": "https://github.com/elisamuelps/fancy-webgl-sparkles/issues"
+	},
+	"homepage": "https://fancy-webgl-sparkles.netlify.app/",
+	"license": "Apache-2.0",
 	"devDependencies": {
 		"@rollup/plugin-terser": "^0.4.1",
 		"@rollup/plugin-typescript": "^11.1.0",
+		"eslint": "^8.40.0",
 		"rollup": "^3.21.3",
 		"tslib": "^2.5.0",
 		"typescript": "^5.0.4",
