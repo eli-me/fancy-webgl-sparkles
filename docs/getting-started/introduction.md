@@ -1,6 +1,6 @@
 ## What is Fancy WebGl Sparkles?
 
-It's a performance first frontend Javascript library powered by **pixi.js** that allows you to add dynamic glowing sparkles, stars and bokeh to your DOM elements.
+It's a performance first frontend Javascript library powered by **pixi-import.ts** that allows you to add dynamic glowing sparkles, stars and bokeh to your DOM elements.
 
 Check the [Examples](/usage/examples) for a live preview of the effect.
 
@@ -31,5 +31,5 @@ npm i fancy-webgl-sparkles
 ### Web
 Add before the closing body tag
 ``` html
-<script src="../dist/fancy-webgl-sparkles.js"></script>
+<script src="../dist/fancy-webgl-sparkles.ts"></script>
 ```

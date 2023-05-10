@@ -1,5 +1,5 @@
 # ADD SOME MAGIC TO YOUR WEB PROJECT!
-Unleash the power of the GPU! Use fancy-webgl-sparkles.js to spice up your website with this awesome webgl effect.
+Unleash the power of the GPU! Use fancy-webgl-sparkles.ts to spice up your website with this awesome webgl effect.
 
 Please read the [documentation](/getting-started/introduction) to get started.
 
@@ -10,7 +10,7 @@ Please read the [documentation](/getting-started/introduction) to get started.
 </div>
 
 <script>
-	FancyWebGLSparkles.init(document.querySelector(".fairies"),
+	FancyWebglSparkles.init(document.querySelector(".fairies"),
 	{
 		persistent: true,
 		renderStars: true,

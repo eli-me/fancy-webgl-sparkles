@@ -1,6 +1,6 @@
 # Add Some Glitter And Sparks To Your Web Project!
 
-Unleash the power of the GPU! Use fancy-webgl-sparkles.js to spice up your website with this awesome webgl effect.
+Unleash the power of the GPU! Use fancy-webgl-sparkles.ts to spice up your website with this awesome webgl effect.
 ![](https://raw.githubusercontent.com/elisamuelps/fancy-webgl-sparkles/master/res/demo.gif)
 
 Please check the demo with the [documentation](https://fancy-webgl-sparkles.netlify.com) to get started.
@@ -8,7 +8,7 @@ Please check the demo with the [documentation](https://fancy-webgl-sparkles.netl
 
 ## What is Fancy WebGl Sparkles?
 
-It's a performance first frontend Javascript library powered by **pixi.js** that allows you to add dynamic glowing sparkles, stars and bokeh to your DOM elements.
+It's a performance first frontend Javascript library powered by **pixi-import.ts** that allows you to add dynamic glowing sparkles, stars and bokeh to your DOM elements.
 
 ## Features
 - WebGL rendering
@@ -35,9 +35,9 @@ npm i fancy-webgl-sparkles
 ```
 
 ### Web
-Download fancy-webgl-sparkles.js from the dist directory and add before the closing body tag
+Download fancy-webgl-sparkles.ts from the dist directory and add before the closing body tag
 ``` html
-<script src="./your-path/fancy-webgl-sparkles.js"></script>
+<script src="./your-path/fancy-webgl-sparkles.ts"></script>
 ```
 
 ## Contribute

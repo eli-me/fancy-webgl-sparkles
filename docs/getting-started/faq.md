@@ -22,7 +22,7 @@ As a general guideline, the frames used to generate the particles are enumerated
 - Frame 9 is used for the Stars.
 
 ## What I do if I'm already using Pixi.js on my project?
-If you are already using pixi.js you can use a precompiled no dependency build located in the **dist** folder without the pixi.js, although you will have to make sure you're including @pixi/filters or you're whole project is going to crash.
+If you are already using pixi-import.ts you can use a precompiled no dependency build located in the **dist** folder without the pixi-import.ts, although you will have to make sure you're including @pixi/filters or you're whole project is going to crash.
 
 ## What is the browser support?
 Basically whatever pixi 5 supports on webGL mode, you can read more [here](https://github.com/pixijs/pixi.js/wiki/FAQs)

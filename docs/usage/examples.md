@@ -91,45 +91,45 @@
 	}
 </style>
 <script>
-	FancyWebGLSparkles.init(document.querySelector(".s"));
+	FancyWebglSparkles.init(document.querySelector(".s"));
 
-	FancyWebGLSparkles.init(document.querySelector(".b"),
+	FancyWebglSparkles.init(document.querySelector(".b"),
 	{
 		renderSparkles: false,
 	});
-	FancyWebGLSparkles.init(document.querySelector(".c"),
+	FancyWebglSparkles.init(document.querySelector(".c"),
 	{
 		renderStars: false
 	});
-	FancyWebGLSparkles.init(document.querySelector(".yellow"),
+	FancyWebglSparkles.init(document.querySelector(".yellow"),
 	{
 		renderStars: false,
 		sparkleColor: ["#ffff00"]
 	});
-	FancyWebGLSparkles.init(document.querySelector(".e"),
+	FancyWebglSparkles.init(document.querySelector(".e"),
 	{
 		renderStars: false,
 		sparkleColor: "rainbow",
 	});
-	FancyWebGLSparkles.init(document.querySelector(".e"),
+	FancyWebglSparkles.init(document.querySelector(".e"),
 	{
 		renderStars: false,
 		sparkleColor: "rainbow",
 	});
-	FancyWebGLSparkles.init(document.querySelector(".nonpersistent"),
+	FancyWebglSparkles.init(document.querySelector(".nonpersistent"),
 	{
 		renderOutside: false,
 		sparkleColor: "rainbow",
 		sparkleScale: 80
 	});
-	FancyWebGLSparkles.init(document.querySelector(".persistent"),
+	FancyWebglSparkles.init(document.querySelector(".persistent"),
 	{
 		persistent: true,
 		renderOutside: false,
 		sparkleColor: "rainbow",
 		sparkleScale: 300
 	});
-	FancyWebGLSparkles.init(document.querySelector(".magic"),
+	FancyWebglSparkles.init(document.querySelector(".magic"),
 	{
 		persistent: false,
 		renderStars: false,
