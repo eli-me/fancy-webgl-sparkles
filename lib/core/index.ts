@@ -1,9 +1,5 @@
 export const FancyWebGLSparkles =
 {
-	install(app, options)
-	{
-
-	},
 	//Static Constructor TODO:
 	init(elements, settings)
 	{

@@ -18,6 +18,11 @@
 		"html5-canvas",
 		"ui"
 	],
+	"exports": {
+		".": "./lib/index.ts",
+		"./vue": "lib/vue/index.ts",
+		"./react": "./lib/react/index.ts"
+	},
 	"author": "Eli Menendez <elisamuelpantoja@gmail.com>",
 	"repository": {
 		"type": "git",

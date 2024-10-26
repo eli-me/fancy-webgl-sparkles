@@ -7,14 +7,18 @@ export class FancyWebGLSparklesEngine {
   private mouseEventElement: Event | undefined;
 
 
+  for(let
+
+  property
+  in
+  defaultFancySparklesSettings
   constructor(element: Node[], inSettings: Partial<IFancySparklesSettings> = {}) {
     //if (!(element instanceof Node)) throw `Can't initialize FancyWebGLSparkles because ${element} is not a Node.`;
     this.settings = {
       ...defaultFancySparklesSettings,
       ...inSettings
     };
-
-    for (let property in defaultFancySparklesSettings) {
+) {
       //Walk the Dom Tree of elements and find all the elements with the attribute "sparkle"
       let attrSetting = this.element.getAttribute("sparkle-" + property);
 
